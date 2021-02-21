@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fill_injuries"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageback"
+        android:layout_width="500dp"
+        android:layout_height="350dp"
+        android:contentDescription="@string/desc"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/back"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="450dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="238dp"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="345dp"
+        android:ems="10"
+        android:textColor="#455a64"
+        android:text="Shoulder Injuries"
+
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/I1"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="370dp"
+        android:background="@drawable/igroup1"
+        android:hint="Select "
+        android:paddingLeft="10dp"
+        android:completionThreshold="1"
+
+        />
+
+    <TextView
+        android:layout_width="238dp"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="275dp"
+        android:ems="10"
+        android:textColor="#455a64"
+        android:text="Chest Injuries"
+
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/I2"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/igroup2"
+        android:hint="Select "
+        android:paddingLeft="10dp"
+        android:completionThreshold="1"
+
+        />
+
+    <TextView
+        android:layout_width="238dp"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="205dp"
+        android:ems="10"
+        android:textColor="#455a64"
+        android:text="Legs Injuries"
+
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/I3"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="230dp"
+        android:background="@drawable/igroup3"
+        android:hint="Select "
+        android:paddingLeft="10dp"
+        android:completionThreshold="1"
+
+        />
+
+    <TextView
+        android:layout_width="238dp"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="135dp"
+        android:ems="10"
+        android:textColor="#455a64"
+        android:text="Arms Injuries"
+
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/I4"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/igroup4"
+        android:hint="Select "
+        android:paddingLeft="10dp"
+        android:completionThreshold="1"
+
+        />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/btn"
+        android:ems="10"
+        android:text="Done"
+        android:textColor="#cfd8dc"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

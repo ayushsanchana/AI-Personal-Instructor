@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "18806339260",
+    "firebase_url": "https://aipersonalinstructor.firebaseio.com",
+    "project_id": "aipersonalinstructor",
+    "storage_bucket": "aipersonalinstructor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18806339260:android:e3fdd9efbefdd4e02d02b9",
+        "android_client_info": {
+          "package_name": "com.example.personalinstructor_02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18806339260-9samcnjr0egi47h9ndstlt5os4u5ceru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.personalinstructor_02",
+            "certificate_hash": "8dba6ebb0b410147cec3b801b9d9c9ff22b4d158"
+          }
+        },
+        {
+          "client_id": "18806339260-erqmje6j9tsa5tvu90ql54e2r2tvpt2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIbGj_BVOJirShcenC4Wf9ZEk97Ibazyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18806339260-erqmje6j9tsa5tvu90ql54e2r2tvpt2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

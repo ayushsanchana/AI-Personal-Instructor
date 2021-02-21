@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registrationwithimgbrows"
+    android:background="#ffffff"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/backip" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="360dp"
+        android:ems="10"
+        android:text="Insert a pictures of your your front back and side view of body"
+        android:textColor="#455a64"
+
+        android:textSize="11sp"
+        android:textStyle="bold" />
+
+
+
+        />
+
+    <ImageView
+        android:id="@+id/browsfront"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/imgview2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/btn_img2"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/btnip"
+        android:ems="10"
+        android:text="Front"
+        android:textColor="#cfd8dc"
+
+        />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/igroup2"
+        android:ems="10"
+        android:text="Next"
+        android:textColor="#cfd8dc"
+        />
+
+
+
+
+
+
+</RelativeLayout>

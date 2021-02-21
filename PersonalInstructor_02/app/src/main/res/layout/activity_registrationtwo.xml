@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registrationtwo"
+    android:background="@drawable/backip"
+    >
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="350dp"
+        android:ems="10"
+        android:text="Insert a pictures of your your front back and side view of body"
+        android:textColor="#455a64"
+
+        android:textSize="11sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/fuck"
+        android:layout_width="223dp"
+        android:layout_height="249dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/browsfront"
+
+
+        />
+
+    <Button
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/group6"
+        android:ems="10"
+        android:text="Brows"
+        android:textColor="#cfd8dc"
+
+        />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/group6"
+        android:ems="10"
+        android:text="Next"
+        android:textColor="#cfd8dc"
+        />
+
+
+
+
+</RelativeLayout>
